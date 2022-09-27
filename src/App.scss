@@ -1,0 +1,21 @@
+*{
+    box-sizing: border-box;
+}
+
+main{
+    width: 90%;
+    margin:auto;
+    background-color: green;
+}
+
+
+@font-face {
+    font-family:EuroStyleBold;
+    src: url("../public/font/EurostileBold.ttf");
+}
+
+$red:#c01803;
+$nav:#363636;
+$overskrift: #595959;
+$button: #b40003;
+$gray: #a9a8a4;

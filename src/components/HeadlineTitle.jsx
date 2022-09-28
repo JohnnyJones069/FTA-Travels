@@ -1,3 +1,3 @@
-export const SectionTitle = ( { children } ) => {
-	return <div className='sectionTitle'><h1>{ children }</h1></div>
+export const HeadlineTitle = ( { children } ) => {
+	return <div className='headlineTitle'><h1>{ children }</h1></div>
 }

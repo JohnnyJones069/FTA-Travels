@@ -27,7 +27,7 @@ const Navbar = () => {
 					</div>
 					<div className="navLinks">
 						<a href="#about">Om os</a>
-						<a href="#tours">Produkter</a>
+						<a href="#trips">Produkter</a>
 						<a href="#contact">Kontakt</a>
 					</div>
 

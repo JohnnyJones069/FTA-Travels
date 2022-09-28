@@ -5,7 +5,6 @@
 main{
     width: 90%;
     margin:auto;
-    background-color: green;
 }
 
 
@@ -14,8 +13,30 @@ main{
     src: url("../public/font/EurostileBold.ttf");
 }
 
-$red:#c01803;
-$nav:#363636;
-$overskrift: #595959;
-$button: #b40003;
-$gray: #a9a8a4;
+// $red:#c01803;
+// $nav:#363636;
+// $overskrift: #595959;
+// $button: #b40003;
+// $gray: #a9a8a4;
+
+
+.headlineTitle{
+	width: 100%;
+	height: auto;
+	background-color: #595959;
+	color: white;
+	margin:  auto;
+	padding:0px;
+	text-align: center;
+	border-radius: 5px;
+	font-size: 25px;
+	font-family: "EuroStyleBold";
+}
+
+.sectionContent{
+	margin: 50px 0px;
+}
+
+.clearboth{
+    clear:both;
+}

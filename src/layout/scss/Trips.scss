@@ -1,0 +1,72 @@
+.trips{
+    width: 100%;
+    height: 100%;
+    .tripsWrapper{
+        width: 100%;
+        height: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: auto;
+        gap: 2em;
+        .tripItem{
+            border:1px solid #a9a8a4;
+            border-radius: 3px;
+            position: relative;
+            background-color: #fff;
+            width: 100%;
+            height: 100%;
+            img{
+                width: 100%;
+                height: auto;
+                border-radius: 3px 3px 0 0;
+            }
+            .tripContent{
+                padding:5%;
+            }
+            .tripTitle{
+                display: inline;
+                font-family: "EuroStyleBold";
+                font-size: 27px;
+            }
+            .starImg{
+                width: 15px;
+                height: auto;
+                float:right;
+            }
+            .tripDate{
+                margin-top:10px;
+                color:#a9a8a4;
+                font-size: 15px;
+            }
+            .tripTeaser{
+                margin: 15px 0 50px 0;
+                font-size:20px;
+            }
+            button{
+                position: absolute;
+                bottom:2%;
+                left:5%;
+                background-color: #b40003;
+                padding:10px;
+                color:white;
+                border:none;
+                border-radius: 5px;
+                font-size: 20px;
+                cursor:pointer;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:1234px) {
+    .tripsWrapper{
+        grid-template-columns: 1fr 1fr!important;
+    }
+    
+}
+@media screen and (max-width:850px) {
+    .tripsWrapper{
+        grid-template-columns: 1fr!important;
+    }
+    
+}

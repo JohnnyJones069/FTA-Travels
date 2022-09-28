@@ -1,5 +1,7 @@
 *{
     box-sizing: border-box;
+	margin:0px;
+	padding:0px;
 }
 
 main{
@@ -39,4 +41,13 @@ main{
 
 .clearboth{
     clear:both;
+}
+
+@import './layout/scss/Modal.scss';
+@import './layout/scss/Slider.scss';
+
+@media screen and (max-width: 620px){
+	.App{
+		min-width: 620px;
+	}
 }

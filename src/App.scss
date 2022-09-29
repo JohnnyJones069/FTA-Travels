@@ -35,6 +35,18 @@ main{
 	font-family: "EuroStyleBold";
 }
 
+footer{
+	background-color: #363636;
+	text-align: center;
+	padding: 10px;
+	p{
+		color: #f2f2f2;
+		span{
+			color:#c01803;
+		}
+	}
+}
+
 .sectionContent{
 	margin: 50px 0px;
 }
@@ -42,6 +54,16 @@ main{
 .clearboth{
     clear:both;
 }
+
+@import './layout/scss/Header.scss';
+@import './layout/scss/Navbar.scss';
+@import './layout/scss/About.scss';
+@import './layout/scss/Trips.scss';
+@import './layout/scss/Modal.scss';
+@import './layout/scss/Slider.scss';
+@import './layout/scss/Contact.scss';
+@import './layout/scss/Footer.scss';
+
 
 @import './layout/scss/Modal.scss';
 @import './layout/scss/Slider.scss';

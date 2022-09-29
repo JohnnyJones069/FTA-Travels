@@ -4,7 +4,6 @@ import {BrowserRouter, Routes, Route} from 'react-router-dom';
 import App from './App';
 import About from './layout/About';
 import Contact from './layout/Contact';
-import Contactinfo from './layout/Contactinfo';
 import Footer from './layout/Footer';
 import Trips from './layout/Trips';
 
@@ -18,7 +17,6 @@ root.render(
       <Route path="/" element={<App />}/>
       <Route path="about" element={<About />} />
       <Route path="contact" element={<Contact />} />
-      <Route path="contactinfo" element={<Contactinfo />} />
       <Route path="trips" element={<Trips />} />
       <Route path="footer" element={<Footer />} />
     </Routes>

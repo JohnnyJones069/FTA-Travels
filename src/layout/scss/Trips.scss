@@ -1,14 +1,14 @@
 .trips{
     width: 100%;
     height: 100%;
-    .tripsWrapper{
+    .tripWrapper{
         width: 100%;
         height: 100%;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: auto;
         gap: 2em;
-        .tripItem{
+        .tourItem{
             border:1px solid #a9a8a4;
             border-radius: 3px;
             position: relative;

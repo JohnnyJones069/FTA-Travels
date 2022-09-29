@@ -1,12 +1,29 @@
 import React from 'react'
 import Logo from '../assets/logo/logo.png'
-import {Link} from 'react-router-dom'
+import { Link } from 'react-router-dom'
 import './scss/Navbar.scss'
 
 
 const Navbar = () => {
 
-  const toggleNav = ( e ) => {
+
+		// var navbar = document.getElementById( "nav" );
+		// var sticky = navbar.offsetTop;
+
+		// function stickyFunction () {
+		// 	if ( window.pageYOffset >= sticky ) {
+		// 		navbar.classList.add( "sticky" )
+		// 	} else {
+		// 		navbar.classList.remove( "sticky" );
+		// 	}
+		// }
+
+
+
+
+
+
+	const toggleNav = ( e ) => {
 		e.target.classList.toggle( 'change' )
 		var x = document.getElementById( "myLinks" );
 		if ( x.style.display === "block" ) {
@@ -16,9 +33,11 @@ const Navbar = () => {
 		}
 	}
 
-  return (
-    <div>
-      <nav id='nav'>
+
+
+	return (
+		<div>
+			<nav id='nav'>
 				<div className="navbar">
 					<div className="navLogo">
 						<a href="#top">
@@ -50,8 +69,8 @@ const Navbar = () => {
 					</div>
 				</div>
 			</nav>
-    </div>
-  )
+		</div>
+	)
 }
 
 export default Navbar;

@@ -15,12 +15,6 @@ main{
     src: url("../public/font/EurostileBold.ttf");
 }
 
-// $red:#c01803;
-// $nav:#363636;
-// $overskrift: #595959;
-// $button: #b40003;
-// $gray: #a9a8a4;
-
 
 .headlineTitle{
 	width: 100%;
@@ -59,8 +53,6 @@ footer{
 @import './layout/scss/Navbar.scss';
 @import './layout/scss/About.scss';
 @import './layout/scss/Trips.scss';
-@import './layout/scss/Modal.scss';
-@import './layout/scss/Slider.scss';
 @import './layout/scss/Contact.scss';
 @import './layout/scss/Footer.scss';
 

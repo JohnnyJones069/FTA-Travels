@@ -20,7 +20,8 @@ const Contact = () => {
     })
       .then((response) => response.json())
       .then((json) => setInfo(json));
-  });
+  }, []);
+  
 
   return (
     <div id='contact' className='contact'>

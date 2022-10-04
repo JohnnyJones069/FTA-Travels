@@ -35,6 +35,7 @@
     z-index:3;
 }
 
+
 .left{
     position: absolute;
     top: 40%;
@@ -48,11 +49,18 @@
 .right{
     position: absolute;
     top: 40%;
-    left:5%;
+    right:5%;
     background-color: transparent;
     border:none;
     font-size:30px;
     color: #ffffff, 0.8;
+}
+
+.starImg{
+    width: 30px;
+    height: auto;
+    float:right;
+    margin-top:0;
 }
 
 .indicators>button{

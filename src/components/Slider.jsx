@@ -45,10 +45,5 @@ const SliderWrapper = ( { children } ) => {
     )
 }
 
-const Slider = () => {
-    return (
-        <div></div>
-    )
-}
 
-export default Slider
+export default SliderWrapper;

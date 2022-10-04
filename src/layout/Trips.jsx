@@ -77,13 +77,14 @@ const Trips = () => {
                   </div>
                   <hr />
                   <div className="modalSlider">
-                    <SliderWrapper>
+                    <SliderWrapper children={tripContent.gallery}>
                       {
                         tripContent.gallery.map( ( img, i ) => {
                           return (
                             <>
-                              <SliderItem> <img
-                                src={ "http://localhost:5099/images/tours/gallery" + img } alt="Trip Image" /></SliderItem>
+                              <SliderItem children={img}>
+                                <img src={ "http://localhost:5099/images/tours/" + img} alt="Trip Image" />
+                              </SliderItem>
                             </>
                           )
                         } )
@@ -92,6 +93,7 @@ const Trips = () => {
                   </div>
                   <div className="modalContent">
                     <h1>{ tripContent.title }</h1>
+                    { parser( rating( tripContent.rating ) ) }
                     <h4>Du får:</h4>
                     { parser( tripContent.content.replace( "<p> *", "<p style='color: #a9a8a4;margin-left:30px;' *" ) ) }
                     <h4>Værelsestype</h4>
